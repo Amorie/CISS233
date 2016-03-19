@@ -1,0 +1,4 @@
+c:\users\amorie\documents\visual studio 2015\Projects\CalculateArea\CalculateArea\bin\Release\CalculateArea.dll
+c:\users\amorie\documents\visual studio 2015\Projects\CalculateArea\CalculateArea\bin\Release\CalculateArea.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\CalculateArea\CalculateArea\obj\Release\CalculateArea.dll
+c:\users\amorie\documents\visual studio 2015\Projects\CalculateArea\CalculateArea\obj\Release\CalculateArea.pdb

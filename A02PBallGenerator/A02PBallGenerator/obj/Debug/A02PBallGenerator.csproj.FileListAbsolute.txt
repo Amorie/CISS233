@@ -1,0 +1,9 @@
+c:\users\amorie\documents\visual studio 2015\Projects\A02PBallGenerator\A02PBallGenerator\bin\Debug\A02PBallGenerator.exe.config
+C:\Users\Amorie\documents\visual studio 2015\Projects\A02PBallGenerator\A02PBallGenerator\bin\Debug\A02PBallGenerator.exe
+C:\Users\Amorie\documents\visual studio 2015\Projects\A02PBallGenerator\A02PBallGenerator\bin\Debug\A02PBallGenerator.pdb
+C:\Users\Amorie\documents\visual studio 2015\Projects\A02PBallGenerator\A02PBallGenerator\obj\Debug\A02PBallGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Amorie\documents\visual studio 2015\Projects\A02PBallGenerator\A02PBallGenerator\obj\Debug\A02PBallGenerator.exe
+C:\Users\Amorie\documents\visual studio 2015\Projects\A02PBallGenerator\A02PBallGenerator\obj\Debug\A02PBallGenerator.pdb
+C:\Users\Amorie\Documents\GitHub\CISS233\A02PBallGenerator\A02PBallGenerator\bin\Debug\A02PBallGenerator.exe.config
+C:\Users\Amorie\Documents\GitHub\CISS233\A02PBallGenerator\A02PBallGenerator\obj\Debug\A02PBallGenerator.exe
+C:\Users\Amorie\Documents\GitHub\CISS233\A02PBallGenerator\A02PBallGenerator\obj\Debug\A02PBallGenerator.pdb

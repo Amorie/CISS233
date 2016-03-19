@@ -1,0 +1,11 @@
+c:\users\amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\bin\Debug\Project06CustomerEntry.exe.config
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\obj\Debug\Project06CustomerEntry.csprojResolveAssemblyReference.cache
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\obj\Debug\Project06CustomerEntry.FrmCustomerEntry.resources
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\obj\Debug\Project06CustomerEntry.Properties.Resources.resources
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\obj\Debug\Project06CustomerEntry.csproj.GenerateResource.Cache
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\bin\Debug\Project06CustomerEntry.exe
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\bin\Debug\Project06CustomerEntry.pdb
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\obj\Debug\Project06CustomerEntry.exe
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\obj\Debug\Project06CustomerEntry.pdb
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\obj\Debug\Project06CustomerEntry.FrmAbout.resources
+C:\Users\Amorie\documents\visual studio 2015\Projects\Project06CustomerEntry\Project06CustomerEntry\obj\Debug\Project06CustomerEntry.FrmDisplayAllCustomers.resources

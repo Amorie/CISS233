@@ -1,0 +1,9 @@
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\bin\Debug\Assignment03.exe.config
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\bin\Debug\Assignment03.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\bin\Debug\Assignment03.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\obj\Debug\Assignment03.csprojResolveAssemblyReference.cache
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\obj\Debug\Assignment03.Properties.Resources.resources
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\obj\Debug\Assignment03.csproj.GenerateResource.Cache
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\obj\Debug\Assignment03.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\obj\Debug\Assignment03.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment03\Assignment03\obj\Debug\Assignment03.FrmMagic8Ball.resources

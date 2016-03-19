@@ -1,0 +1,6 @@
+c:\users\amorie\documents\visual studio 2015\Projects\P03StudentEmployeeEntry\P03StudentEmployeeEntry\bin\Debug\P03StudentEmployeeEntry.exe.config
+c:\users\amorie\documents\visual studio 2015\Projects\P03StudentEmployeeEntry\P03StudentEmployeeEntry\bin\Debug\P03StudentEmployeeEntry.exe
+c:\users\amorie\documents\visual studio 2015\Projects\P03StudentEmployeeEntry\P03StudentEmployeeEntry\bin\Debug\P03StudentEmployeeEntry.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\P03StudentEmployeeEntry\P03StudentEmployeeEntry\obj\Debug\P03StudentEmployeeEntry.csprojResolveAssemblyReference.cache
+c:\users\amorie\documents\visual studio 2015\Projects\P03StudentEmployeeEntry\P03StudentEmployeeEntry\obj\Debug\P03StudentEmployeeEntry.exe
+c:\users\amorie\documents\visual studio 2015\Projects\P03StudentEmployeeEntry\P03StudentEmployeeEntry\obj\Debug\P03StudentEmployeeEntry.pdb

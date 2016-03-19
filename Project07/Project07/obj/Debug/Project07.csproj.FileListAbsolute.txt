@@ -1,0 +1,13 @@
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\bin\Debug\Project07.exe.config
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\bin\Debug\Project07.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\bin\Debug\Project07.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.csprojResolveAssemblyReference.cache
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.FrmMenu.resources
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.Properties.Resources.resources
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.csproj.GenerateResource.Cache
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.FrmAddStudent.resources
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.FrmViewStudents.resources
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.FrmAddEmployee.resources
+c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.FrmViewEmployees.resources

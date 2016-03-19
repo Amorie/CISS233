@@ -1,0 +1,6 @@
+C:\Users\Amorie\Documents\Visual Studio 2015\Projects\P04VendingMachine\P04VendingMachine\bin\Debug\P04VendingMachine.exe.config
+C:\Users\Amorie\Documents\Visual Studio 2015\Projects\P04VendingMachine\P04VendingMachine\bin\Debug\P04VendingMachine.exe
+C:\Users\Amorie\Documents\Visual Studio 2015\Projects\P04VendingMachine\P04VendingMachine\bin\Debug\P04VendingMachine.pdb
+C:\Users\Amorie\Documents\Visual Studio 2015\Projects\P04VendingMachine\P04VendingMachine\obj\Debug\P04VendingMachine.exe
+C:\Users\Amorie\Documents\Visual Studio 2015\Projects\P04VendingMachine\P04VendingMachine\obj\Debug\P04VendingMachine.pdb
+C:\Users\Amorie\Documents\Visual Studio 2015\Projects\P04VendingMachine\P04VendingMachine\obj\Debug\P04VendingMachine.csprojResolveAssemblyReference.cache

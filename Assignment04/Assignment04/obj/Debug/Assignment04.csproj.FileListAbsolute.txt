@@ -1,0 +1,6 @@
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment04\Assignment04\bin\Debug\Assignment04.exe.config
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment04\Assignment04\bin\Debug\Assignment04.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment04\Assignment04\bin\Debug\Assignment04.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment04\Assignment04\obj\Debug\Assignment04.csprojResolveAssemblyReference.cache
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment04\Assignment04\obj\Debug\Assignment04.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Assignment04\Assignment04\obj\Debug\Assignment04.pdb

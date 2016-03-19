@@ -1,0 +1,6 @@
+c:\users\amorie\documents\visual studio 2015\Projects\Project02AreaCalculator\Project02AreaCalculator\bin\Debug\Project02AreaCalculator.exe.config
+c:\users\amorie\documents\visual studio 2015\Projects\Project02AreaCalculator\Project02AreaCalculator\bin\Debug\Project02AreaCalculator.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Project02AreaCalculator\Project02AreaCalculator\bin\Debug\Project02AreaCalculator.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\Project02AreaCalculator\Project02AreaCalculator\obj\Debug\Project02AreaCalculator.csprojResolveAssemblyReference.cache
+c:\users\amorie\documents\visual studio 2015\Projects\Project02AreaCalculator\Project02AreaCalculator\obj\Debug\Project02AreaCalculator.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Project02AreaCalculator\Project02AreaCalculator\obj\Debug\Project02AreaCalculator.pdb

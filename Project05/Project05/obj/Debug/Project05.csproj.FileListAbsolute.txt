@@ -1,0 +1,7 @@
+c:\users\amorie\documents\visual studio 2015\Projects\Project05\Project05\bin\Debug\Project05.exe.config
+c:\users\amorie\documents\visual studio 2015\Projects\Project05\Project05\bin\Debug\Project05.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Project05\Project05\bin\Debug\Project05.pdb
+c:\users\amorie\documents\visual studio 2015\Projects\Project05\Project05\bin\Debug\CalculateArea.dll
+c:\users\amorie\documents\visual studio 2015\Projects\Project05\Project05\obj\Debug\Project05.csprojResolveAssemblyReference.cache
+c:\users\amorie\documents\visual studio 2015\Projects\Project05\Project05\obj\Debug\Project05.exe
+c:\users\amorie\documents\visual studio 2015\Projects\Project05\Project05\obj\Debug\Project05.pdb
