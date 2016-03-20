@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+Paul Adams
+3/14/16
+Project 07
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +25,14 @@ namespace Project07
         private void FrmViewEmployees_FormClosing(object sender, FormClosingEventArgs e)
         {
             FrmMenu.isChildOpen = false;
+        }
+
+        private void FrmViewEmployees_Load(object sender, EventArgs e)
+        {
+            foreach(EmployeeClass i in FrmMenu.employee)
+            {
+                dataGridView1.Rows.Add(i.FirstName, i.LastName, i.Address, i.City, i.State, i.ZipCode, i.PhoneNumber, i.PhoneType, i.DateOfBirth, i.Gender, i.Dependents, i.SSN, i.Department, i.Salary);
+            }
         }
     }
 }

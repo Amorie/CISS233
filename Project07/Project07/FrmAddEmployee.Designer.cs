@@ -565,7 +565,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmAddEmployee";
-            this.Text = "FrmAddEmployee";
+            this.Text = "Add Employee";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmAddEmployee_FormClosing);
             this.Load += new System.EventHandler(this.FrmAddEmployee_Load);
             this.panel1.ResumeLayout(false);

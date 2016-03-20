@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+Paul Adams
+3/14/16
+Project 07
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -130,7 +136,7 @@ namespace Project07
                     
                     MessageBox.Show("Adding Employee");
                     var emp = new EmployeeClass(tbFirstName.Text, tbLastName.Text, tbAddress.Text, tbCity.Text, DDState.Text, tbZipCode.Text, tbPhone.Text,
-                        ddPhoneType.Text, dpDOB.Text, selectedGender, ddDependents.SelectedIndex, tbSSN.Text, ddDepartment.Text, int.Parse(tbSalary.Text));
+                        ddPhoneType.Text, dpDOB.Text, selectedGender, ddDependents.SelectedIndex - 1, tbSSN.Text, ddDepartment.Text, int.Parse(tbSalary.Text));
                     FrmMenu.employee.Add(emp);
                     Close();
                 }
