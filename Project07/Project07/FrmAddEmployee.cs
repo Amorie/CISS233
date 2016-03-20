@@ -15,10 +15,7 @@ namespace Project07
         public FrmAddEmployee()
         {
             InitializeComponent();
-            AddStates();
-            AddPhoneTypes();
-            AddNumbers();
-            AddDepartments();
+            
         }
 
         private void FrmAddEmployee_FormClosing(object sender, FormClosingEventArgs e)
@@ -26,10 +23,7 @@ namespace Project07
             FrmMenu.isChildOpen = false;
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
         private void AddPhoneTypes()
         {
             ddPhoneType.Items.Add("Please make a selection");
@@ -118,55 +112,242 @@ namespace Project07
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            lblErrorFName.Visible = false;
-            lblErrorLName.Visible = false;
-            lblErrorAddress.Visible = false;
-            lblErrorCity.Visible = false;
-            lblErrorDependents.Visible = false;
-            lblErrorDept.Visible = false;
             lblErrorGender.Visible = false;
-            lblErrorPhoneNumber.Visible = false;
-            lblErrorPhoneType.Visible = false;
-            lblErrorSalary.Visible = false;
-            lblErrorSSN.Visible = false;
-            lblErrorState.Visible = false;
-            lblErrorZip.Visible = false;
-            
-            
 
-        }
-        private bool validateTextBox(TextBox tb, Label lbl)
-        {
-            bool result = String.IsNullOrWhiteSpace(tb.Text);
-            if (result)
+           if( this.ValidateChildren())
             {
-                lbl.Visible = true;
+                if(rbMale.Checked || rbFemale.Checked)
+                {
+                    string selectedGender;
+                    if(rbFemale.Checked)
+                    {
+                        selectedGender = "Female";
+                    }
+                    else
+                    {
+                        selectedGender = "Male";
+                    }
+                    
+                    MessageBox.Show("Adding Employee");
+                    var emp = new EmployeeClass(tbFirstName.Text, tbLastName.Text, tbAddress.Text, tbCity.Text, DDState.Text, tbZipCode.Text, tbPhone.Text,
+                        ddPhoneType.Text, dpDOB.Text, selectedGender, ddDependents.SelectedIndex, tbSSN.Text, ddDepartment.Text, int.Parse(tbSalary.Text));
+                    FrmMenu.employee.Add(emp);
+                    Close();
+                }
+                
             }
             else
             {
-                lbl.Visible = false;
+                if (!(rbMale.Checked || rbFemale.Checked))
+                    lblErrorGender.Visible = true;
+                MessageBox.Show("One or more fields need to be corrected");
             }
-            return result;
+            
         }
-        private bool ValidateDDL(ComboBox DDL, Label lbl)
-        {
-            bool result;
-            if(DDL.SelectedIndex == 0)
-            {
-                result = true;
-                lbl.Visible = true;
-            }
-            else
-            {
-                lbl.Visible = false;
-                result = false;
-            }
-            return result;
-        }
+        
 
         private void tbFirstName_Validating(object sender, CancelEventArgs e)
         {
-            validateTextBox(tbFirstName, lblErrorFName);
+            if(String.IsNullOrWhiteSpace(tbFirstName.Text))
+            {
+                lblErrorFName.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorFName.Visible = false;
+            }
+        }
+
+        private void FrmAddEmployee_Load(object sender, EventArgs e)
+        {
+            AddStates();
+            AddPhoneTypes();
+            AddNumbers();
+            AddDepartments();
+            this.AutoValidate = AutoValidate.Disable;
+            
+            
+            
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void tbLastName_Validating(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(tbLastName.Text))
+            {
+                lblErrorLName.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorLName.Visible = false;
+            }
+        }
+
+        private void tbAddress_Validating(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(tbAddress.Text))
+            {
+                lblErrorAddress.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorAddress.Visible = false;
+            }
+        }
+
+        private void tbCity_Validating(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(tbCity.Text))
+            {
+                lblErrorCity.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorCity.Visible = false;
+            }
+        }
+
+        private void DDState_Validating(object sender, CancelEventArgs e)
+        {
+            if (DDState.SelectedIndex == 0)
+            {
+                lblErrorState.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorState.Visible = false;
+            }
+        }
+
+        private void tbZipCode_Validating(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(tbZipCode.Text))
+            {
+                lblErrorZip.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorZip.Visible = false;
+            }
+        }
+
+        private void tbPhone_Validating(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(tbPhone.Text))
+            {
+                lblErrorPhoneNumber.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorPhoneNumber.Visible = false;
+            }
+        }
+
+        private void ddPhoneType_Validating(object sender, CancelEventArgs e)
+        {
+            if (ddPhoneType.SelectedIndex == 0)
+            {
+                lblErrorPhoneType.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorPhoneType.Visible = false;
+            }
+        }
+
+        private void ddDependents_Validating(object sender, CancelEventArgs e)
+        {
+            if (ddDependents.SelectedIndex == 0)
+            {
+                lblErrorDependents.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorDependents.Visible = false;
+            }
+        }
+
+        private void tbSSN_Validating(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(tbSSN.Text))
+            {
+                lblErrorSSN.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorSSN.Visible = false;
+            }
+        }
+
+        private void tbSalary_Validating(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(tbSalary.Text))
+            {
+                lblErrorSalary.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                decimal i;
+                if (decimal.TryParse(tbSalary.Text, out i))
+                {
+                    lblErrorSalary.Visible = false;
+                }
+                else
+                {
+                    lblErrorSalary.Visible = true;
+                    e.Cancel = true;
+                }
+                
+            }
+        }
+
+        private void ddDepartment_Validating(object sender, CancelEventArgs e)
+        {
+            if (ddDepartment.SelectedIndex == 0)
+            {
+                lblErrorDept.Visible = true;
+                e.Cancel = true;
+            }
+            else
+            {
+                lblErrorDept.Visible = false;
+            }
+        }
+
+        private void panel1_Validating(object sender, CancelEventArgs e)
+        {
+            if (rbFemale.Checked)
+            {
+                lblErrorGender.Visible = false;
+            }
+            else
+            {
+                if (rbMale.Checked)
+                {
+                    lblErrorGender.Visible = false;
+                }
+                else
+                {
+                    lblErrorGender.Visible = true;
+                    e.Cancel = true;
+                }
+            }
+           
         }
     }
 }

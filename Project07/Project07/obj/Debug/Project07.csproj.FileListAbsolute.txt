@@ -11,3 +11,16 @@ c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\De
 c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.FrmViewStudents.resources
 c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.FrmAddEmployee.resources
 c:\users\amorie\documents\visual studio 2015\Projects\Project07\Project07\obj\Debug\Project07.FrmViewEmployees.resources
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\bin\Debug\Project07.exe.config
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.exe
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.pdb
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\bin\Debug\Project07.exe
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\bin\Debug\Project07.pdb
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.csprojResolveAssemblyReference.cache
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.FrmAddEmployee.resources
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.FrmAddStudent.resources
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.FrmMenu.resources
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.FrmViewEmployees.resources
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.FrmViewStudents.resources
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.Properties.Resources.resources
+C:\Users\Amorie\Documents\GitHub\CISS233\Project07\Project07\obj\Debug\Project07.csproj.GenerateResource.Cache

@@ -216,6 +216,7 @@
             this.tbLastName.Name = "tbLastName";
             this.tbLastName.Size = new System.Drawing.Size(143, 20);
             this.tbLastName.TabIndex = 15;
+            this.tbLastName.Validating += new System.ComponentModel.CancelEventHandler(this.tbLastName_Validating);
             // 
             // dpDOB
             // 
@@ -244,7 +245,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(162, 26);
             this.panel1.TabIndex = 18;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.Validating += new System.ComponentModel.CancelEventHandler(this.panel1_Validating);
             // 
             // rbFemale
             // 
@@ -263,6 +264,7 @@
             this.tbAddress.Name = "tbAddress";
             this.tbAddress.Size = new System.Drawing.Size(143, 20);
             this.tbAddress.TabIndex = 19;
+            this.tbAddress.Validating += new System.ComponentModel.CancelEventHandler(this.tbAddress_Validating);
             // 
             // tbCity
             // 
@@ -270,6 +272,7 @@
             this.tbCity.Name = "tbCity";
             this.tbCity.Size = new System.Drawing.Size(143, 20);
             this.tbCity.TabIndex = 20;
+            this.tbCity.Validating += new System.ComponentModel.CancelEventHandler(this.tbCity_Validating);
             // 
             // DDState
             // 
@@ -279,6 +282,7 @@
             this.DDState.Name = "DDState";
             this.DDState.Size = new System.Drawing.Size(143, 21);
             this.DDState.TabIndex = 21;
+            this.DDState.Validating += new System.ComponentModel.CancelEventHandler(this.DDState_Validating);
             // 
             // tbZipCode
             // 
@@ -286,6 +290,7 @@
             this.tbZipCode.Name = "tbZipCode";
             this.tbZipCode.Size = new System.Drawing.Size(143, 20);
             this.tbZipCode.TabIndex = 22;
+            this.tbZipCode.Validating += new System.ComponentModel.CancelEventHandler(this.tbZipCode_Validating);
             // 
             // tbPhone
             // 
@@ -293,6 +298,7 @@
             this.tbPhone.Name = "tbPhone";
             this.tbPhone.Size = new System.Drawing.Size(143, 20);
             this.tbPhone.TabIndex = 23;
+            this.tbPhone.Validating += new System.ComponentModel.CancelEventHandler(this.tbPhone_Validating);
             // 
             // ddPhoneType
             // 
@@ -302,6 +308,7 @@
             this.ddPhoneType.Name = "ddPhoneType";
             this.ddPhoneType.Size = new System.Drawing.Size(143, 21);
             this.ddPhoneType.TabIndex = 24;
+            this.ddPhoneType.Validating += new System.ComponentModel.CancelEventHandler(this.ddPhoneType_Validating);
             // 
             // ddDependents
             // 
@@ -311,6 +318,7 @@
             this.ddDependents.Name = "ddDependents";
             this.ddDependents.Size = new System.Drawing.Size(143, 21);
             this.ddDependents.TabIndex = 25;
+            this.ddDependents.Validating += new System.ComponentModel.CancelEventHandler(this.ddDependents_Validating);
             // 
             // tbSSN
             // 
@@ -318,6 +326,7 @@
             this.tbSSN.Name = "tbSSN";
             this.tbSSN.Size = new System.Drawing.Size(143, 20);
             this.tbSSN.TabIndex = 26;
+            this.tbSSN.Validating += new System.ComponentModel.CancelEventHandler(this.tbSSN_Validating);
             // 
             // tbSalary
             // 
@@ -325,6 +334,7 @@
             this.tbSalary.Name = "tbSalary";
             this.tbSalary.Size = new System.Drawing.Size(143, 20);
             this.tbSalary.TabIndex = 27;
+            this.tbSalary.Validating += new System.ComponentModel.CancelEventHandler(this.tbSalary_Validating);
             // 
             // ddDepartment
             // 
@@ -334,6 +344,7 @@
             this.ddDepartment.Name = "ddDepartment";
             this.ddDepartment.Size = new System.Drawing.Size(143, 21);
             this.ddDepartment.TabIndex = 28;
+            this.ddDepartment.Validating += new System.ComponentModel.CancelEventHandler(this.ddDepartment_Validating);
             // 
             // btnSubmit
             // 
@@ -355,6 +366,7 @@
             this.btnCancel.TabIndex = 30;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // lblErrorFName
             // 
@@ -555,6 +567,7 @@
             this.Name = "FrmAddEmployee";
             this.Text = "FrmAddEmployee";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmAddEmployee_FormClosing);
+            this.Load += new System.EventHandler(this.FrmAddEmployee_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
