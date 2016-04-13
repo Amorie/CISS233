@@ -1,0 +1,10 @@
+﻿body {
+    background-color: lightblue;
+}
+div {
+
+    border-style: inset;
+    border-color: cornflowerblue;
+    font-family: "Courier New", Courier, monospace;
+
+}
