@@ -56,44 +56,79 @@ namespace Assignment05
             _lastOpperator = null;
         }
 
+        //All button events ecept clear have two checks for errors.
+        //outer check to prevent functionality while there is an error
+        // inner check because error dection happens during applying of last opperand.
+        //so if there is an error we want to stop further funtionality. 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            ApplyLastOpperand();
-            _lastOpperator = Opperands.Add;
-            tbInput.Clear();
-            tbInput.Focus();
+            if (_noError)
+            {
+                ApplyLastOpperand();
+                if (_noError)
+                {
+                    _lastOpperator = Opperands.Add;
+                    tbInput.Clear();
+                    tbInput.Focus();
+                }
+            }
         }
 
         private void btnSubtract_Click(object sender, EventArgs e)
         {
-            ApplyLastOpperand();
-            _lastOpperator = Opperands.Subtract;
-            tbInput.Clear();
-            tbInput.Focus();
+            if (_noError)
+            {
+                ApplyLastOpperand();
+                if (_noError)
+                {
+                    _lastOpperator = Opperands.Subtract;
+                    tbInput.Clear();
+                    tbInput.Focus();
+                }
+            }
         }
 
         private void btnMultiply_Click(object sender, EventArgs e)
         {
-            ApplyLastOpperand();
-            _lastOpperator = Opperands.Multiply;
-            tbInput.Clear();
-            tbInput.Focus();
+            if (_noError)
+            {
+                ApplyLastOpperand();
+                if (_noError)
+                {
+                    _lastOpperator = Opperands.Multiply;
+                    tbInput.Clear();
+                    tbInput.Focus();
+                }
+            }
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
         {
-            ApplyLastOpperand();
-            _lastOpperator = Opperands.Divide;
-            tbInput.Clear();
-            tbInput.Focus();
+            if (_noError)
+            {
+                ApplyLastOpperand();
+                if (_noError)
+                {
+                    _lastOpperator = Opperands.Divide;
+                    tbInput.Clear();
+                    tbInput.Focus();
+                }
+            }
         }
 
         private void btnEquals_Click(object sender, EventArgs e)
         {
-            ApplyLastOpperand();
-            tbInput.Text = _value.ToString();
-            ClearRecent();
-            tbInput.Focus();
+            if (_noError)
+            {
+                ApplyLastOpperand();
+                if (_noError)
+                {
+                    tbInput.Text = _value.ToString();
+                    ClearRecent();
+                    tbInput.Focus();
+                }
+                
+            }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -102,6 +137,7 @@ namespace Assignment05
             tbInput.Focus();
         }
 
+        //
         private bool IsValidInput()
         {
             decimal result;
@@ -112,6 +148,9 @@ namespace Assignment05
                 return true;
             }
 
+            tbInput.Text = "Invalid Input Click Clear(C)";
+            tbInput.ForeColor = Color.Red;
+            _noError = false;
             return false;
         }
 
@@ -134,7 +173,7 @@ namespace Assignment05
                     case Opperands.Divide:
                         if (_input == 0)
                         {
-                            tbInput.Text = "Cannot Divide by 0, Click Clear (C) to start over";
+                            tbInput.Text = "Cannot Divide by 0, Click Clear(C)";
                             tbInput.ForeColor = Color.Red;
                             _noError = false;
                             return;
@@ -148,17 +187,6 @@ namespace Assignment05
             }
         }
 
-        private bool DividingByZero()
-        {
-            if (_lastOpperator == Opperands.Divide)
-            {
-                if (_input == 0)
-                {
-                    _noError = false;
-                    return true;
-                }
-            }
-            return false;
-        }
+        
     }
 }
